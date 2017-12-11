@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="TriangleView">
+        <attr name="inverse" format="boolean"/>
+    </declare-styleable>
+</resources>

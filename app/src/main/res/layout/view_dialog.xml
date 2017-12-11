@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="I am a dialog"
+        android:gravity="center|left"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:id="@+id/num"
+        android:text="num"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <Button
+        android:id="@+id/plus"
+        android:text="PLUS"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <Button
+        android:id="@+id/minus"
+        android:text="MINUS"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <Button
+        android:id="@+id/dismiss"
+        android:text="DISMISS"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+</LinearLayout>
